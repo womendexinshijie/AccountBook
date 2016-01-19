@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		394119A71C45DB21005E8C4A /* AddType.m in Sources */ = {isa = PBXBuildFile; fileRef = 394119A61C45DB21005E8C4A /* AddType.m */; };
 		396821B21C3B956700B182B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 396821B11C3B956700B182B1 /* main.m */; };
 		396821B51C3B956700B182B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 396821B41C3B956700B182B1 /* AppDelegate.m */; };
 		396821B81C3B956700B182B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396821B71C3B956700B182B1 /* ViewController.m */; };
@@ -15,6 +16,11 @@
 		396821C01C3B956700B182B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396821BE1C3B956700B182B1 /* LaunchScreen.storyboard */; };
 		396821CB1C3B956700B182B1 /* AccountBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 396821CA1C3B956700B182B1 /* AccountBookTests.m */; };
 		396821D61C3B956700B182B1 /* AccountBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 396821D51C3B956700B182B1 /* AccountBookUITests.m */; };
+		3987433A1C3E01BD000ACB9C /* 1242397_095459034_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 398743391C3E01BD000ACB9C /* 1242397_095459034_2.jpg */; };
+		3987433E1C3E0A27000ACB9C /* TakeNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3987433C1C3E0A27000ACB9C /* TakeNotes.m */; };
+		3987433F1C3E0A27000ACB9C /* TakeNotes.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3987433D1C3E0A27000ACB9C /* TakeNotes.xib */; };
+		89AEA16A1C47983E0006E184 /* TodayBill.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AEA1691C47983E0006E184 /* TodayBill.m */; };
+		89D61A3A1C48CCE80004F3C4 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89D61A391C48CCE80004F3C4 /* photo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		394119A51C45DB21005E8C4A /* AddType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddType.h; sourceTree = "<group>"; };
+		394119A61C45DB21005E8C4A /* AddType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddType.m; sourceTree = "<group>"; };
 		396821AD1C3B956700B182B1 /* AccountBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		396821B11C3B956700B182B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		396821B31C3B956700B182B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,13 @@
 		396821D11C3B956700B182B1 /* AccountBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		396821D51C3B956700B182B1 /* AccountBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountBookUITests.m; sourceTree = "<group>"; };
 		396821D71C3B956700B182B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398743391C3E01BD000ACB9C /* 1242397_095459034_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1242397_095459034_2.jpg; sourceTree = "<group>"; };
+		3987433B1C3E0A27000ACB9C /* TakeNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeNotes.h; sourceTree = "<group>"; };
+		3987433C1C3E0A27000ACB9C /* TakeNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeNotes.m; sourceTree = "<group>"; };
+		3987433D1C3E0A27000ACB9C /* TakeNotes.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakeNotes.xib; sourceTree = "<group>"; };
+		89AEA1681C47983E0006E184 /* TodayBill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayBill.h; sourceTree = "<group>"; };
+		89AEA1691C47983E0006E184 /* TodayBill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayBill.m; sourceTree = "<group>"; };
+		89D61A391C48CCE80004F3C4 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,8 @@
 		396821AF1C3B956700B182B1 /* AccountBook */ = {
 			isa = PBXGroup;
 			children = (
+				89D61A391C48CCE80004F3C4 /* photo.jpg */,
+				398743391C3E01BD000ACB9C /* 1242397_095459034_2.jpg */,
 				396821B31C3B956700B182B1 /* AppDelegate.h */,
 				396821B41C3B956700B182B1 /* AppDelegate.m */,
 				396821B61C3B956700B182B1 /* ViewController.h */,
@@ -110,6 +127,13 @@
 				396821BE1C3B956700B182B1 /* LaunchScreen.storyboard */,
 				396821C11C3B956700B182B1 /* Info.plist */,
 				396821B01C3B956700B182B1 /* Supporting Files */,
+				3987433B1C3E0A27000ACB9C /* TakeNotes.h */,
+				3987433C1C3E0A27000ACB9C /* TakeNotes.m */,
+				3987433D1C3E0A27000ACB9C /* TakeNotes.xib */,
+				394119A51C45DB21005E8C4A /* AddType.h */,
+				394119A61C45DB21005E8C4A /* AddType.m */,
+				89AEA1681C47983E0006E184 /* TodayBill.h */,
+				89AEA1691C47983E0006E184 /* TodayBill.m */,
 			);
 			path = AccountBook;
 			sourceTree = "<group>";
@@ -244,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				396821C01C3B956700B182B1 /* LaunchScreen.storyboard in Resources */,
+				3987433A1C3E01BD000ACB9C /* 1242397_095459034_2.jpg in Resources */,
+				89D61A3A1C48CCE80004F3C4 /* photo.jpg in Resources */,
 				396821BD1C3B956700B182B1 /* Assets.xcassets in Resources */,
+				3987433F1C3E0A27000ACB9C /* TakeNotes.xib in Resources */,
 				396821BB1C3B956700B182B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3987433E1C3E0A27000ACB9C /* TakeNotes.m in Sources */,
 				396821B81C3B956700B182B1 /* ViewController.m in Sources */,
+				394119A71C45DB21005E8C4A /* AddType.m in Sources */,
 				396821B51C3B956700B182B1 /* AppDelegate.m in Sources */,
+				89AEA16A1C47983E0006E184 /* TodayBill.m in Sources */,
 				396821B21C3B956700B182B1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +528,7 @@
 				396821DC1C3B956700B182B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		396821DD1C3B956700B182B1 /* Build configuration list for PBXNativeTarget "AccountBookTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +537,7 @@
 				396821DF1C3B956700B182B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		396821E01C3B956700B182B1 /* Build configuration list for PBXNativeTarget "AccountBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +546,7 @@
 				396821E21C3B956700B182B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
